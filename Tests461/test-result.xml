@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" duration="3.1439999999999997" testcasecount="1" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2019-09-10T 13:18:32Z" end-time="2019-09-10T 13:18:36Z">
+  <test-suite type="Assembly" name="Tests461.dll" fullname="E:\MyLibrary\Tests461\bin\Debug\net461\Tests461.dll" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" duration="3.1439999999999997">
+    <test-suite type="TestSuite" name="Tests461" fullname="Tests461" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" duration="3.1439999999999997">
+      <test-suite type="TestFixture" name="MyTest461" fullname="Tests461.MyTest461" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" duration="3.1439999999999997">
+        <test-case name="Test461" fullname="Tests461.MyTest461.Test461" methodname="Test461" classname="Tests461.MyTest461" result="Passed" duration="3.1439999999999997" asserts="0" />
+      </test-suite>
+    </test-suite>
+    <errors />
+  </test-suite>
+</test-run>

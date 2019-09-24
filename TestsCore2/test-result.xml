@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" duration="3.0469999999999997" testcasecount="1" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2019-09-10T 13:18:32Z" end-time="2019-09-10T 13:18:36Z">
+  <test-suite type="Assembly" name="TestsCore2.dll" fullname="E:\MyLibrary\TestsCore2\bin\Debug\netcoreapp2.2\TestsCore2.dll" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" duration="3.0469999999999997">
+    <test-suite type="TestSuite" name="TestsCore2" fullname="TestsCore2" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" duration="3.0469999999999997">
+      <test-suite type="TestFixture" name="MyTestsCore" fullname="TestsCore2.MyTestsCore" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" duration="3.0469999999999997">
+        <test-case name="TestCore" fullname="TestsCore2.MyTestsCore.TestCore" methodname="TestCore" classname="TestsCore2.MyTestsCore" result="Passed" duration="3.0469999999999997" asserts="0" />
+      </test-suite>
+    </test-suite>
+    <errors />
+  </test-suite>
+</test-run>
