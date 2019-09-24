@@ -1,6 +1,16 @@
 ## This Repo demonstrates the parallel execution of unit tests with dotnet test
 
+Contents
+- [Dotnet Standard 2.0 library csproj](./MyLibrary/MyLibrary.csproj)
+  - Method being tested ([MyNetStandardClass.cs](./MyLibrary/MyNetStandardClass.cs))
+- [net461 test library csproj](./Tests461/Tests461.csproj)
+  - [Tests class](./Tests461/MyTest461.cs) (marked with various non parallel attributes / assembly directives)
+- [netcoreapp2.2 test library csproj](./TestsCore2/TestsCore2.csproj)
+  - [Test class](./TestsCore2/MyTestsCore.cs) (marked with various non parallel attributes / assembly directives)
+
 ## Running the tests
+
+Both tests write timestamps for enter/exit to the same output file to show parallel execution
 
 - Output file is created in `c:\temp\output.txt` if this doesn't exist or is undesireable change it in [MyLibrary/MyNetStandardClass](./MyLibrary/MyNetStandardClass.cs)
 - Run dotnet test in the current directory of your repo
